@@ -1,0 +1,8 @@
+[
+	{ "s": "CAN", "p": [6, 3, 2] },
+	{ "s": "CLUTTERED", "p": [6] },
+	{ "s": "COLLAPSABLE", "p": [6] },
+	{ "s": "COLLAPSED", "p": [6] },
+	{ "s": "COLLAPSIBLE", "p": [6] },
+	{ "s": "CONTROLLED", "p": [3, 2] }
+]
