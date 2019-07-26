@@ -1,14 +1,18 @@
 [
-	{ "s": "EACH", "p": [22, 20] },
+	{ "s": "EACH", "p": [20] },
 	{ "s": "EDIT", "p": [3] },
 	{ "s": "EDITING", "p": [4] },
 	{ "s": "EDITOR", "p": [8, 6] },
+	{ "s": "EMAIL", "p": [22] },
+	{ "s": "EMPTY", "p": [22] },
 	{ "s": "ENTER", "p": [5, 3] },
 	{ "s": "ENTIRE", "p": [5] },
 	{ "s": "ESPECIALLY", "p": [3] },
 	{ "s": "ETC", "p": [5] },
-	{ "s": "EVICTED", "p": [22, 21] },
+	{ "s": "EVICTED", "p": [21] },
 	{ "s": "EXAMPLE", "p": [5] },
+	{ "s": "EXISTING", "p": [22] },
 	{ "s": "EXPAND", "p": [6] },
-	{ "s": "EXPLAINED", "p": [6] }
+	{ "s": "EXPLAINED", "p": [6] },
+	{ "s": "EXPORT", "p": [22] }
 ]

@@ -84,6 +84,14 @@ span.de_2B94C39861
 	color:#0000ff;
 	text-decoration:underline;
 }
+span.de_7EA41EC2FA
+{
+	font-size: 16pt;
+}
+span.de_FFB638AC42
+{
+	font-size: 11pt;
+}
 .list-element {
 	list-style-type: none;
 }
@@ -220,7 +228,7 @@ span.de_2B94C39861
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-7, decimal) '.\00a0';
+	content: '' counter(list-counter-7, disc) '\00a0';
 	counter-increment: list-counter-7;
 }
 .list-counter-7 > div > div[class='list-marker-chm'] {
@@ -238,10 +246,46 @@ span.de_2B94C39861
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-8, lower-alpha) '.\00a0';
+	content: '' counter(list-counter-8, decimal) '.\00a0';
 	counter-increment: list-counter-8;
 }
 .list-counter-8 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-9 > div > * {
+	text-indent: 0px;}
+.list-counter-9 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-9, disc) '\00a0';
+	counter-increment: list-counter-9;
+}
+.list-counter-9 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-10 > div > * {
+	text-indent: 0px;}
+.list-counter-10 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-10, decimal) '.\00a0';
+	counter-increment: list-counter-10;
+}
+.list-counter-10 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

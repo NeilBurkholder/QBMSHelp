@@ -1,5 +1,6 @@
 [
 	{ "s": "QB", "p": [2, 1] },
-	{ "s": "QUICKBOOKS", "p": [12] },
+	{ "s": "QBMS", "p": [22] },
+	{ "s": "QUICKBOOKS", "p": [22, 12] },
 	{ "s": "QUICKLY", "p": [5] }
 ]

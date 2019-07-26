@@ -1,11 +1,15 @@
 [
 	{ "s": "REARRANGING", "p": [5] },
-	{ "s": "RELEASE", "p": [20, 22] },
+	{ "s": "RELEASE", "p": [20] },
 	{ "s": "REMEMBERED", "p": [6, 5] },
+	{ "s": "REMOVED", "p": [22] },
 	{ "s": "REORDERED", "p": [5] },
 	{ "s": "REPORTS", "p": [13, 5] },
 	{ "s": "RESIZABLE", "p": [4, 3] },
 	{ "s": "RESIZED", "p": [5] },
+	{ "s": "RESULTED", "p": [22] },
 	{ "s": "RESULTS", "p": [5] },
-	{ "s": "REVIEWING", "p": [5] }
+	{ "s": "REVIEWING", "p": [5] },
+	{ "s": "ROUNDING", "p": [22] },
+	{ "s": "RULES", "p": [22] }
 ]
