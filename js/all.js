@@ -1142,10 +1142,10 @@ InputSync.prototype ={
 DR_EXPLAIN.namespace( 'DR_EXPLAIN.data_menu' );
 DR_EXPLAIN.data_menu = {
     // menu
-    DREX_NODE_NAMES: ["Title","1. Application Tabs","2. Menus","3. FAQ","4. Release Notes","1.1. Orders","1.2. Production","1.3. Shipping","1.4. Inventory","1.5. QuickBooks","1.6. Reports","Installing Updates","Version 3.2.0","1.1.1. Collapsible Panes","1.1.2. Order Editor","1.6.1. Coil Inventory","1.6.2. Coil Usage","1.6.3. Customer Sales","1.6.4. Item Sales","Order Search","Left Pane","Production Pane"],
-    DREX_NODE_LINKS: ["index.htm","application_tabs.htm","menus.htm","faq.htm","release_notes.htm","orders.htm","production.htm","shipping.htm","inventory.htm","quickbooks.htm","reports.htm","installing_updates.htm","version_3_2_0.htm","collapsible_panes.htm","order_editor.htm","coil_inventory.htm","coil_usage.htm","customer_sales.htm","item_sales.htm","order_search.htm","left_pane.htm","production_pane.htm"],
-    DREX_NODE_CHILD_START: [1,5,11,11,11,13,15,15,15,15,15,19,19,19,22,22,22,22,22,22,22,22],
-    DREX_NODE_CHILD_END: [5,11,11,11,13,15,15,15,15,15,19,19,19,22,22,22,22,22,22,22,22,22],
+    DREX_NODE_NAMES: ["Title","1. Application Tabs","2. Menus","3. FAQ","4. Release Notes","1.1. Orders","1.2. Production","1.3. Shipping","1.4. Inventory","1.5. QuickBooks","1.6. Reports","Installing Updates","Feedback","Version 3.2.0","1.1.1. Collapsible Panes","1.1.2. Order Editor","1.1.3. Reprice Order","1.6.1. Coil Inventory","1.6.2. Coil Usage","1.6.3. Customer Sales","1.6.4. Item Sales","Order Search","Left Pane","Production Pane"],
+    DREX_NODE_LINKS: ["index.htm","application_tabs.htm","menus.htm","faq.htm","release_notes.htm","orders.htm","production.htm","shipping.htm","inventory.htm","quickbooks.htm","reports.htm","installing_updates.htm","feedback.htm","version_3_2_0.htm","collapsible_panes.htm","order_editor.htm","reprice_order.htm","coil_inventory.htm","coil_usage.htm","customer_sales.htm","item_sales.htm","order_search.htm","left_pane.htm","production_pane.htm"],
+    DREX_NODE_CHILD_START: [1,5,11,11,11,14,17,17,17,17,17,21,21,21,21,24,24,24,24,24,24,24,24,24],
+    DREX_NODE_CHILD_END: [5,11,11,11,14,17,17,17,17,17,21,21,21,21,24,24,24,24,24,24,24,24,24,24],
     DREX_MENU_TYPE: 2,
     DREX_HAS_ROOT_NODE: 0};
 

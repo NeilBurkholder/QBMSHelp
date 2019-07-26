@@ -256,7 +256,7 @@
                     <div class="b-controlButtons">
                         <ul class="b-controlButtons__items">
                             <li class="b-controlButtons__item m-controlButtons__item__prev"><a href="production_pane.htm" class="b-controlButtons__link" title="Previous page"><span class="b-controlButtons__link_icon"></span><span class="b-controlButtons__link_text">&#xa0;Previous page</span></a></li>
-                            <li class="b-controlButtons__item m-controlButtons__item__next"><a href="production.htm" class="b-controlButtons__link" title="Next page"><span class="b-controlButtons__link_text">Next page&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
+                            <li class="b-controlButtons__item m-controlButtons__item__next"><a href="reprice_order.htm" class="b-controlButtons__link" title="Next page"><span class="b-controlButtons__link_text">Next page&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
                                                 </ul>
                     </div>
                 </td>
@@ -285,7 +285,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"production_pane.htm\" class=\"b-controlButtons__link\" title=\"Previous page\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;Previous page</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"production.htm\" class=\"b-controlButtons__link\" title=\"Next page\"><span class=\"b-controlButtons__link_text\">Next page&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"production_pane.htm\" class=\"b-controlButtons__link\" title=\"Previous page\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;Previous page</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"reprice_order.htm\" class=\"b-controlButtons__link\" title=\"Next page\"><span class=\"b-controlButtons__link_text\">Next page&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
                             )
                         )
                     )
@@ -335,7 +335,109 @@
     <div>To properly display this page you need a browser with JavaScript support.</div>
     </noscript>
                 <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>1.1.2. Order Editor</strong></h1></div></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&lt;TODO&gt;: Insert description text here... And don't forget to add keyword for this topic</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" id="Create_a_new_order"></a></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>1. Create a new order</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">Press the New button to start a new transaction. This also discards any changes made to the order being edited.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">There are two different types of transactions to choose from. Estimate or Sales Order. Changing the transaction type for existing transactions copies the transaction to a new transaction.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">The order entry fields are similar to QuickBooks. Any of the fields can be marked as required under <a class="local_link" href="order_editor.htm#2._Adding_items_to_the_order"><span class="de_2B94C39861">Preferences (F3) &gt; Order Entry &gt; Company Preferences</span></a><span class="de_51752156DC">. Required fields will show an error if the user tries to save the order with out entering the required field. Required fields do not apply to estimates. Holding your mouse over the error symbol displays the error message.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="888" height="241" class=" de_780D01ADE8" src="drex_order_editor_custom.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">The color of the save button changes to indicate the state of an order as follows:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="79" height="25" class=" de_780D01ADE8" src="drex_order_editor_custom_2.png"/><span class="de_51752156DC"> Tan means there are changes to the order that have not been saved yet. &#160; &#160; &#160; &#160; &#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="78" height="25" class=" de_780D01ADE8" src="drex_order_editor_custom_3.png"/><span class="de_51752156DC"> Pink means that one of the line items on the transaction have changed. &#160; &#160; &#160; &#160; &#160; &#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="77" height="22" class=" de_780D01ADE8" src="drex_order_editor_custom_4.png"/><span class="de_51752156DC"> Green means the order was saved but is still being imported to QuickBooks.&#160; &#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="local_link" href="order_editor.htm#2._Adding_items_to_the_order"><span class="de_2B94C39861"><strong></strong></span></a><a class="anchor" id="Adding_items_to_the_order"></a></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_51752156DC"><strong>2. Adding items to the order</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC"><strong>A. Item field</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">Items are entered into the item field just like in QuickBooks. The item field can also be used to search items by description. If you enter a space anywhere in the item fields the description search is triggered. Text separated by spaces are treated as different search terms.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="403" height="127" class=" de_780D01ADE8" src="drex_order_editor_custom_5.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">The item list columns can be resized. The list width can also be adjusted by dragging from the top right.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">In addition to the item column up to four more columns can be display by right clicking on the column headers and selecting the columns to show.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="349" height="153" class=" de_780D01ADE8" src="drex_order_editor_custom_6.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">Your layout preferences are preserved for future sessions.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">For 'Panel' items that can be produced the item text shows gold. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC"><strong>B. Quantity Field</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">The quantity field allows you the enter the item quantity. For items that are sold by the lineal foot the Tally editor is shown. You can set up item be sold by the foot using </span><a class="local_link" href="menus.htm"><span class="de_2B94C39861">Item Category Setup (F6)</span></a><span class="de_51752156DC">.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">The </span><a class="local_link" href="order_editor.htm#Field_Calculator"><span class="de_2B94C39861">Field Calculator</span></a><span class="de_51752156DC"> can be used in the quantity field.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC"><strong>C. Description Field</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">The description field is automatically populated based on the item information. You can alter the text in the description field. The description field can contain multiple lines.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">For items that are sold by the lineal foot, the tally is shown below the item description. Clicking on the tally or the quantity will open the </span><a class="local_link" href="order_editor.htm#Tally_Editor"><span class="de_2B94C39861">tally editor</span></a><span class="de_51752156DC"> to edit the tally.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="515" height="62" class=" de_780D01ADE8" src="drex_order_editor_custom_7.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC"><strong>D. Price Field</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">The price field is automatically calculated based on the item price and the price rules for the customer. See </span><a class="local_link" href="menus.htm"><span class="de_2B94C39861">Setting up Price Rules</span></a><span class="de_51752156DC">. The </span><a class="local_link" href="order_editor.htm#Field_Calculator"><span class="de_2B94C39861">Field Calculator</span></a><span class="de_51752156DC"> can be used in the price field.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">The price field will turn color according to how the price was calculated.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="40" height="14" class=" de_780D01ADE8" src="drex_order_editor_custom_8.png"/><span class="de_51752156DC">&#160; Gold means the price was calculated using a price rule.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">&#160;<img  alt="" style="border: solid 0px;  " width="35" height="15" class=" de_780D01ADE8" src="drex_order_editor_custom_9.png"/>&#160; Red means the price was manually over ridden by typing in a price, or by </span><a class="local_link" href="reprice_order.htm"><span class="de_2B94C39861">repricing the order</span></a><span class="de_51752156DC"> .</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">&#160;<img  alt="" style="border: solid 0px;  " width="32" height="15" class=" de_780D01ADE8" src="drex_order_editor_custom_10.png"/> &#160; Gray means that the price is different than regular price. This happens when editing an existing order. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">Hovering your mouse over the price shows information about how the price was calculated.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="287" height="130" class=" de_780D01ADE8" src="drex_order_editor_custom_11.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC"><strong>E. Amount Field.</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">The amount field shows the total amount for the line. Adjusting the amount recalculates the price. The </span><a class="local_link" href="order_editor.htm#Field_Calculator"><span class="de_2B94C39861">Field Calculator</span></a><span class="de_51752156DC"> can be used in the amount field.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC"><strong>F. Tax Field</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><span class="de_51752156DC">Specifies the items tax. This is the same functionality as QuickBooks.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" id="Field_Calculator"></a></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_51752156DC"><strong>3. Field Calculator</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">The Quantity, Price, and Amount field contain a calculator to allow you to calculate amount directly in the field. A popup shows the numbers calculated. Press enter to accept the calculated value, or Esc to cancel. Simply clicking elsewhere will accept the calculated value.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="183" height="119" class=" de_780D01ADE8" src="drex_order_editor_custom_12.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" id="Tally_Editor"></a></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_51752156DC"><strong>4. Tally Editor</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">For items that are setup to sell by the lineal foot a tally editor is available to create a cut list. You can set up item be sold by the foot using </span><a class="local_link" href="menus.htm"><span class="de_2B94C39861">Item Category Setup (F6)</span></a><span class="de_51752156DC">.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">Clicking in the quantity field opens up the tally editor under the item description.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="395" height="147" class=" de_780D01ADE8" src="drex_order_editor_custom_13.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">If items are short than the set minimum for the panel the text is red for the line that is too short. See </span><a class="local_link" href="menus.htm"><span class="de_2B94C39861">Panel Setup</span></a><span class="de_51752156DC">.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">The problem can be fixed by adjusting the panels to be longer. You can also right click and choose 'Double Up', or 'Triple up' if your quantity is divisible by 2 or three.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="320" height="87" class=" de_780D01ADE8" src="drex_order_editor_custom_14.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">A comment is added to remind production to cut down the panels. The comment can also be edited manually. &#160; &#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">Panels can be sorted by length or quantity by clicking on the column headers. Individual lines can be reordered by dragging them to a new position.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><span class="de_51752156DC">The quantity field is automatically calculated as the tally list changes.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">&#160;</div>
 </div>                                    			
                 			</div>
 </body>
